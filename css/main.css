@@ -1,0 +1,79 @@
+/* general styling */
+ul {
+    margin: 0;
+    padding: 0;
+}    
+/* ------------------ */
+/* commn styling */
+
+.clear {
+    clear: both;
+}
+.nav > li > a.hover {
+    background-color: #fff;
+    color: #000;
+}
+.nav > li > a.hover:hover{
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+/* ------------- */
+body {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: gray;
+    overflow: hidden; /*to solve expand height of nav from header section*/
+}
+.logo {
+    width: 15%;
+    height: 100%;
+    margin-left:50px;
+    float: left;
+}
+.logo > img {
+    display: block;
+    width: 75%;
+    margin: 25px auto ;
+}
+.navbar {
+    width: 70%;
+    height: 100%;
+    margin-right: 50px;
+    /* border: 1px solid red; */
+    float: right;
+}
+.nav {
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid rgb(128, 0, 117); */
+    text-align: center; 
+    list-style: none;
+}
+.nav > li {
+    width: 13.3%;
+    height: 40px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left:10px;
+    /* border: 1px solid yellow; */
+}
+.nav > li  a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid #f56; */
+    font-family: "Open Sans";
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 3;
+     color:#fff; 
+}
